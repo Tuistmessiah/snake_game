@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    margin: 20px auto;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#levelPreview {
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#levelPreview div {
+    max-width: 440px;
+    line-height: 0;  /* Remove space between inline-block elements */
+}
